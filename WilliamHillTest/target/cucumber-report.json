@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Bet on football event on desktop",
+        "description": "",
+        "id": "bet-on-event;bet-on-football-event-on-desktop",
+        "after": [
+          {
+            "result": {
+              "duration": 1054947010,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BettingTest.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2424192181,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the browser on desktop",
+            "match": {
+              "location": "BettingTest.openBrowserOnDesktop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3911857029,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "open page \"http://sports.williamhill.com/betting/en-gb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://sports.williamhill.com/betting/en-gb",
+                  "offset": 11
+                }
+              ],
+              "location": "BettingTest.openPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 753357549,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "select football event on 4 position",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 25
+                }
+              ],
+              "location": "BettingTest.selectFootballEventOnSelectedPosition(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 717730013,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "place a £0.05 bet for the home team to \u0027Win\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.05",
+                  "offset": 9
+                }
+              ],
+              "location": "BettingTest.placeABetForTheHomeTeamToWin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127662134,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "assert the odds",
+            "match": {
+              "location": "BettingTest.assertTheOdds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110747780,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "assert returns offered",
+            "match": {
+              "location": "BettingTest.assertReturnsOffered()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Bet on football event on mobile device",
+        "description": "",
+        "id": "bet-on-event;bet-on-football-event-on-mobile-device",
+        "after": [
+          {
+            "result": {
+              "duration": 815301041,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BettingTest.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1946597524,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I open the browser on mobile device",
+            "match": {
+              "location": "BettingTest.openBrowserOnDMobile()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3276165665,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "open page \"http://sports.williamhill.com/betting/en-gb\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://sports.williamhill.com/betting/en-gb",
+                  "offset": 11
+                }
+              ],
+              "location": "BettingTest.openPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 632618084,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "select any football event",
+            "match": {
+              "location": "BettingTest.selectAnyFootballEvent()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 827438434,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "place a £0.05 bet for the home team to \u0027Win\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.05",
+                  "offset": 9
+                }
+              ],
+              "location": "BettingTest.placeABetForTheHomeTeamToWin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104515884,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "assert the odds",
+            "match": {
+              "location": "BettingTest.assertTheOdds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 105437911,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "assert returns offered",
+            "match": {
+              "location": "BettingTest.assertReturnsOffered()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Bet on event",
+    "description": "",
+    "id": "bet-on-event",
+    "keyword": "Feature",
+    "uri": "williamhill/BetTest.feature"
+  }
+]
